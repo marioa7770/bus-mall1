@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  margin-left:20px;
+}
+
+
+
+body {
+  background-color: orange;
+}
+
+header {
+ text-align: center;
+ font-size: large;
+ 
+}
