@@ -2,31 +2,29 @@
 
   function Product(name) {
   this.name = name;
+  }
 
-}
-
-let allProducts = [
-  new Product ("bag"),
-  new Product ("banana"),
-  new Product ("bathroom"),
-  new Product ("boots"),
-  new Product ("breakfast"),
-  new Product ("bubblegum"),
-  new Product ("chair"),
-  new Product ("cthulhu"),
-  new Product ("dog-duck"),
-  new Product ("dragon"),
-  new Product ("pen"),
-  new Product ("pet-sweep"),
-  new Product ("reset"),
-  new Product ("scissors"),
-  new Product ("shark"),
-  new Product ("sweep"),
-  new Product ("tauntaun"),
-  new Product ("unicorn"),
-  new Product ("water-can"),
-  new Product ("wine-glass"),
-
+let allProducts= [
+  new Product ('bag'),  
+  new Product ('banana'),
+  new Product ('bathroom'),
+  new Product ('boots'),
+  new Product ('breakfast'),
+  new Product ('bubblegum'),
+  new Product ('chair'),
+  new Product ('cthulhu'),
+  new Product ('dog-duck'),
+  new Product ('dragon'),
+  new Product ('pen'),
+  new Product ('pet-sweep'),
+  new Product ('reset'),
+  new Product ('scissors'),
+  new Product ('shark'),
+  new Product ('sweep'),
+  new Product ('tauntaun'),
+  new Product ('unicorn'),
+  new Product ('water-can'),
+  new Product ('wine-glass'),
 ];
 
 console.log(allProducts);
@@ -40,13 +38,19 @@ function randomImage() {
 let image = randomImage();
 console.log(image);
 
-let img = document.createElement("img");
 
-img.src = `img/${image.name}.jpg`;
+//<img></img>>
 
-img.addEventListener("click", function() {
+let img = document.createElement('img');
+
+img.src = `img/${image.name}.jpeg`;
+
+img.addEventListener('click', function() {
 
   console.log("I was clicked!");
-
 });
+
+img.width = 200;
+
+document.body.appendChild(img);
 
