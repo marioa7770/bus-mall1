@@ -4,14 +4,15 @@
 
 body {
   max-width: 1000px;
+  background-color: slategrey;
 }
 
 main {
   display: grid;
   grid-template-columns: 8rem 10rem 800px;
   grid-template-rows: 8rem 15rem 250px;
-  background-color: #FBAB7E;
-  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+  background-color: #80fb7ee6;
+  background-image: linear-gradient(62deg, #c1fb7ed1 0%, #2b8014 100%);
   width: 1150px;
   padding: 3px;
   margin: 25px 3px 3px 25px;
@@ -89,7 +90,7 @@ div {
   grid-row: 2 / 3;
   margin: auto;
   padding: 5px 3px;
-  background-color: orange;
+  background-color: green;
   pointer-events: none;
   display: flex;
   justify-content: center;
